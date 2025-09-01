@@ -1,14 +1,12 @@
-def double_loops():
-    n = 11
-    m = 11
-    for i in range(n):
-        # print(f"Outer loop {i}")
-        for j in range(m):
-            # print(f"Inner loop {i*j}")
-            pass
 
-    print(f"The final value {i * j}")
+# stop
+for i in range(15):
+    print(i)
 
+# start and stop
+for i in range(1, 15):
+    print(i)
 
-if __name__ == '__main__':
-    double_loops()
+# start, stop, interval
+for i in range(1, 15, 2):
+    print(i)

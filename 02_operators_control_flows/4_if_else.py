@@ -1,25 +1,12 @@
+a = 96
+b = 250
 
-if True:
+# if True:
+#     pass
 
-    pass
-
-a = 25
-b = 14
 if a > b:
-    print("a is greater than b")
+    print(a)
+elif b > a:
+    print(b)
 else:
-    print("a is less than b")
-
-
-if True:
-    pass
-else:
-    pass
-
-
-if True:
-    pass
-elif False:
-    pass
-else:
-    pass
+    print("equal")
