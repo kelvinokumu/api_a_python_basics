@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 class Animal:
+    
     @abstractmethod
     def make_sound(self):
         print("Make sound")
